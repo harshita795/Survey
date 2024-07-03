@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-box {
+  background: url('https://via.placeholder.com/800x200') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.navigation-box {
+  width: 20%;
+  background-color: lightyellow;
+  padding: 20px;
+}
+
+.navigation-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation-box li {
+  margin: 10px 0;
+}
+
+.navigation-box a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.navigation-box a:hover {
+  font-weight: bold;
+  color: blue;
+}
+
+.content-box {
+  flex: 1;
+  padding: 20px;
+}
+
+.content-box a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.content-box a:hover {
+  color: blue;
+  font-weight: bold;
+}

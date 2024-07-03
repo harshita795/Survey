@@ -1,0 +1,103 @@
+/* General styles */
+body, html { 
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+ .overlay {
+  color: white;
+  padding: 50px;
+  border-radius: 8px;
+  width: auto;
+  max-width: 900px;
+}
+
+.background-image {
+  background-image: url("/form-image.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+ .landing-page{
+  margin: 100px;
+  background-color: white;
+  align-items: center;
+  padding: 3rem;
+}
+
+.landing-page h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1e73be;
+}
+
+.landing-page h2 {
+  font-size: 2rem;
+  color: #1e73be;
+}
+
+.landing-page p {
+  margin: 20px 0;
+  color: #333;
+  font-weight: normal;
+}
+
+.landing-page .btn-primary {
+  margin-top: 30px;
+} 
+
+.landing-button a{
+  text-decoration: none;
+  color: white;
+}
+
+.landing-sub-title{
+font-size: 1.5rem;
+font-weight: 600;
+}
+
+
+
+/* Question Page styles */
+.question-page {
+  background-color: white;
+  align-items: center;
+  padding: 3rem;
+}
+
+.question-page h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1e73be;
+}
+
+.title {
+  color: #d9534f;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.question-page form label {
+  font-weight: bold;
+}
+
+.question-page form .form-control {
+  margin-bottom: 10px;
+}
+
+.question-page form .btn-secondary {
+  margin-top: 20px;
+}
+
+.question-page .content .btn-primary {
+  margin-top: 30px;
+}
