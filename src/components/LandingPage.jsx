@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   return (
@@ -15,7 +16,7 @@ const LandingPage = () => {
           <br />
           <p>You must fill all fields, to be able to continue</p>
           <div class="d-flex justify-content-end">
-            <button class="btn btn-primary landing-button text-center"><a href="/question">Next</a></button>
+            <button class="btn btn-primary landing-button text-center"><Link to="/question">Next</Link></button>
           </div>
         </div>
       </div>
